@@ -177,7 +177,7 @@ getScreenId(function (error, sourceId, screen_constraints) {
             loadCallback();
         };
         // https://www.webrtc-experiment.com/getSourceId
-        iframe.src = 'http://192.168.124.234:1987/getScreenId.html'; // https://wwww.yourdomain.com/getScreenId.html
+        iframe.src = 'https://webrtc-getscreen.netlify.com/getScreenId.html'; // https://wwww.yourdomain.com/getScreenId.html
         iframe.style.display = 'none';
         (document.body || document.documentElement).appendChild(iframe);
     }
